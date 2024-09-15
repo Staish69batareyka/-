@@ -1,0 +1,49 @@
+body {
+    
+
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div {
+    /* border: 1px solid black; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+}
+.main {
+    display: grid;
+    grid-template-areas:
+        "inp inp"
+        "div div"
+        "div div"
+        "div div";
+    border: none;
+    gap:10px;
+}
+button{
+    width: 100px;
+    background-color: lemonchiffon;
+    padding: 5px;
+}
+#unic{
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: start;
+}
+#rez{
+    background-color: lightgreen;
+}
+
+button:active{
+    background-color: yellow;
+}
+#rez:active{
+    background-color: aquamarine;
+}
